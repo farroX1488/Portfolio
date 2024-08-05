@@ -17,6 +17,9 @@
     font-weight: normal; 
 
 }
+* {
+    -webkit-tap-highlight-color: transparent;
+}
 li > a > img {
     display: none;
 }
