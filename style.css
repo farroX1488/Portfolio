@@ -62,7 +62,6 @@ nav ul li a {
     display: flex;
 }
 .logo {
-    margin-left: 10%;
     position: relative;
     margin-top: auto;
     margin-bottom: auto;
@@ -1643,6 +1642,7 @@ input:checked+p {
     margin-bottom: 100px;
     font-family: "TildaSans-bold";
     font-weight: 900;
+    font-size: 42px;
     line-height: 1.23;
     text-align: center;
 }
@@ -1650,8 +1650,17 @@ input:checked+p {
     display: none;
 }
 .show-answer-label {
+    display: flex;
+    top: 5px;
     position: relative;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
 }
 .checkbox-real:checked + .show-answer {
     transform: rotate(45deg);
@@ -1682,14 +1691,15 @@ input:checked+p {
     
 }
 .question-main {
+    height: 80px;
     display: flex;
 }
 .quest-text {
-    font-size: 22px;
+    font-size: 5vw;
     font-style: bold;
-    height: 30px;
+    height: 80px;
     color: #000000;
-    font-family: "TildaSans";
+    font-family: "TildaSans-bold";
 }
 .answer {
     border-bottom: rgba(0, 0, 0, 0.2) 1px solid;
@@ -2070,9 +2080,14 @@ table {
 #last-media1 {
     display: inline-block;
 }
+.footer {
+    display: flex;
+    flex-flow: column;
+}
 .down-footer-p {
     color: white;
-    margin-left: 20%;
+    width: 20vw;
+    margin-left: 10vw;
     text-align: center;
     font-size: 14px;
     font-family: 'TildaSans',Arial,sans-serif;
@@ -2185,7 +2200,7 @@ table {
 @media screen and (width <= 1350px) {
     .answer {
         position: relative;
-        top: 20px;
+        top: 3px;
     }
     .first-object_advantages {
         width: 150px;
@@ -3090,6 +3105,10 @@ table {
         left: 50vw;
         width: 40vw;
     }
+    .media_div {
+        margin-top: 20px;
+        display: flex;
+    }
     .second-object-get  {
         position: absolute;
         opacity: 0.3;
@@ -3098,6 +3117,7 @@ table {
         left: 70vw;
         width: 40vw;
     }
+    
     .sign-up{
         margin-top: 20px;
         padding-top: 6px;
@@ -3116,8 +3136,15 @@ table {
     .list-questions {
         width: 100vw;
     }
+    .show-answer {
+        height: 24px;
+        width: 24px;
+        position: relative;
+        border-radius: 50%;
+        
+    }
     .question-main {
-        height: 80px;
+        height: auto;
     }
     .answer {
         height: auto;
@@ -3257,7 +3284,9 @@ table {
         width: 75vw;
     }
 
-
+    .down-footer {
+        display: block;
+    }
     .second-object-get {
         position: absolute;
         opacity: 0.3;
@@ -3303,14 +3332,49 @@ table {
         width: 75vw;
     }
 
-    .media_div{
-        display:inline;
+    .company-info-footer {
+        margin-top: 10vw;
+        width: 40vw;
     }
-
-    .media1{
+    .top-footer{
+        margin-left: 20px;
+        display: flex;
+        flex-flow: column;
+    }
+    .footer-p1 {
+        margin-left: 12.5vw;
+        width: 35vw;
+        margin-bottom: 10px;
         display: inline-block;
+        font-size: "TildaSans-light";
+        position: relative;
+        font-size: 12px;
+        margin-right: auto;
     }
-
+    .footer-p2 {
+        margin-left: 5vw;
+        margin-bottom: 10px;
+        display: inline-block;
+        font-size: "TildaSans-light";
+        position: relative;
+        font-size: 12px;
+        margin-right: auto;
+        width: 35vw;
+    }
+    .footer-p3 {
+        margin-left: 30vw;
+        font-size: "TildaSans-light";
+        margin-bottom: 10px;
+        font-size: 12px;
+        width: 40vw;
+    }
+    .footer-p4 {
+        margin-left: 30vw;
+        font-size: "TildaSans-light";
+        margin-bottom: 10px;
+        font-size: 12px;
+        width: 40vw;
+    }
     .media2{
         display: inline-block;
     }
