@@ -15,7 +15,6 @@
     src: url("fonts/TildaSans-Light.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
-
 }
 * {
     -webkit-tap-highlight-color: transparent;
@@ -2597,8 +2596,181 @@ table {
         margin-left: 250px;
     }
 }
-
+@media screen and (width <= 410px) {
+    .arrow-to-get {
+        transform: translate(0, 40vh) rotate(234deg);
+    }
+}
+@media screen and (width >= 410px) {
+    .arrow-to-get {
+        transform: translate(0, 28vh) rotate(234deg);
+    }
+}
 @media screen and (width <= 896px) {
+    .Unity {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 80vw;
+        height: 25vw;
+        padding: 0;
+        margin-left: auto;
+        text-align: inherit;
+        margin-right: auto;
+    }
+    .Roblox {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 80vw;
+        height: 25vw;
+        padding: 0;
+        margin-left: auto;
+        text-align: inherit;
+        margin-right: auto;
+    }
+    .Minecraft {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 80vw;
+        height: 25vw;
+        padding: 0;
+        margin-left: auto;
+        text-align: inherit;
+        margin-right: auto;
+    }
+    .Scratch {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 80vw;
+        height: 25vw;
+        padding: 0;
+        margin-left: auto;
+        text-align: inherit;
+        margin-right: auto;
+    }
+    .Python {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 80vw;
+        height: 25vw;
+        padding: 0;
+        margin-left: auto;
+        text-align: inherit;
+        margin-right: auto;
+    }
+    .Csharp {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 80vw;
+        height: 25vw;
+        padding: 0;
+        margin-left: auto;
+        text-align: inherit;
+        margin-right: auto;
+    }
+    .htmlandcss {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 80vw;
+        height: 25vw;
+        padding: 0;
+        margin-left: auto;
+        text-align: inherit;
+        margin-right: auto;
+    }
+    .pc {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 80vw;
+        height: 25vw;
+        padding: 0;
+        margin-left: auto;
+        text-align: inherit;
+        margin-right: auto;
+    }
+    .oge1 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 80vw;
+        height: 25vw;
+        padding: 0;
+        margin-left: auto;
+        text-align: inherit;
+        margin-right: auto;
+    }
+    .oge2 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 80vw;
+        height: 25vw;
+        padding: 0;
+        margin-left: auto;
+        text-align: inherit;
+        margin-right: auto;
+    }
+    .cont-napr {
+        width: 60px;
+        height: 60px;
+    }
+    .main-course {
+        display: flex;
+        flex-flow: column;
+        width: calc(100% - 60px);
+    }
+    .logo1 {
+        width: 60px;
+        height: 60px;
+    }
+    .logo2 {
+        width: 60px;
+        height: 10.5px;
+    }
+    
+    .inner_text1 {
+        height: 25px;
+        position: relative;
+        text-align: left;
+        width: 100%;
+        font-size: 3.5vw;
+        margin-right: 10px;
+        margin-top: 0px;
+        top: 0px;
+        right: 0px;
+    }
+    
+    .inner_text2 {
+        order: 1;
+        position: relative;
+        text-align: left;
+        width: 100%;
+        margin-right: 10px;
+        margin-top: 0px;
+        top: 0px;
+        right: 0px; /* Отступ сверху */
+    }
+    
+    .age {
+        order: 2;
+        height: 20px;
+        position: relative;
+        text-align: left;
+        display: inline-block;
+        font-size: 12px;
+        margin-bottom: 0;
+        left: 0;
+        width: calc(100% - 60px);
+        color: #ccc; /* Светло-серый цвет текста */
+    }
+    
     .row-packages {
         flex-flow: column;
         margin-top: 10px;
@@ -2811,7 +2983,6 @@ table {
     }
     .arrow-to-get {
         left: -100px;
-        top: 1850px;
     }
     .info-advantage {
         text-align: center;
@@ -2883,7 +3054,6 @@ table {
         display: none;
     }
     .svg-container {
-        height: auto;
         display: inline-block;
         overflow: hidden;
         
@@ -2959,6 +3129,7 @@ table {
         font-size: 10px;
     }
     td {
+        margin-bottom: 0;
         flex-flow: column;
     }
     .decription-dolyami_div {
@@ -3061,14 +3232,9 @@ table {
 
     }
 
-    .Unity{
-        width: 80vw;
-        margin-bottom: 10px;
-        height: 25vw;
-    }
+
 
     .logo1{
-        position: absolute;
         box-sizing: border-box;
         display: table;
     }
@@ -3118,8 +3284,8 @@ table {
 
     .arrow-to-get{
         position:absolute;
-        transform: translate(0,-200vw);
-
+        
+        
         z-index: -100;
     }
 
