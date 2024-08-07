@@ -18,6 +18,7 @@
 }
 * {
     -webkit-tap-highlight-color: transparent;
+    line-height: 1;
 }
 li > a > img {
     display: none;
@@ -1668,9 +1669,10 @@ input:checked+p {
 .checkbox-real:checked + .show-answer {
     transform: rotate(45deg);
 }
-.checkbox-real:checked + .answer {
-    transform: scale(1);
+.checkbox-real:checked ~ .answer {
+    display: none;
 }
+
 .show-answer {
     vertical-align: top;
     -webkit-transition: all 0.2s;
